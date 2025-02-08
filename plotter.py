@@ -21,7 +21,7 @@ plt.rc('legend', fontsize=SMALL_SIZE)  # legend fontsize
 plt.rc('figure', titlesize=SMALL_SIZE)  # fontsize of the figure title
 
 episodic_data = None
-AGENT_TRAIN_METRIC_PATH = "models/DQN_mountaincar_metrics.csv"
+AGENT_TRAIN_METRIC_PATH = "models/DQN_lunarlander_metrics.csv"
 
 fig, axes = plt.subplots(2, 2, figsize=(12, 8))
 fig.suptitle("Training Metrics")
